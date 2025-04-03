@@ -14,6 +14,6 @@ else:
     print("Invalid operator")
 print(f"{result:.1f}") 
 
-
+# alot of errors but it still works 
 
 
