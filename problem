@@ -1,0 +1,7 @@
+#id function
+list = id(x)
+print(list)
+list = id(x1)
+print(list)
+
+for list in list1

@@ -1,5 +1,3 @@
-
-
 def print_square(size):
 
     # for each row in square

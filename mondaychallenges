@@ -1,0 +1,24 @@
+# create two lists of items
+# create two lists with a ID so line items can be paired
+# print the two lists as a table
+# add a new item and sort the lists
+# create a test document with the lists (up to you 2 files or one)
+# read from the lists
+# edit lines and write to lists
+
+# Create two lists of items
+list1 = ["Quran", "Sunnah", "Allah"]
+list2 = ["Gambling", "Alcohol", "Pork"]
+
+# Print the two lists as a table
+print(f"| {'Col 1':<10} | {'Col 2':<10} |")
+print(f"| {'-'*10} | {'-'*10} |")
+for item1, item2 in zip(list1, list2):
+    print(f"| {item1:<10} | {item2:<10} |")
+
+
+
+
+
+
+
